@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Background Generator</title>
+    <link rel="stylesheet" href="linkedin-background.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LinkedIn Background Generator</h1>
+        <p>Create professional background images for your LinkedIn profile</p>
+
+        <div class="controls">
+            <div class="control-group">
+                <label>Background Style:</label>
+                <select id="backgroundStyle">
+                    <option value="ai_neural">AI Neural Network</option>
+                    <option value="ml_data">ML Data Flow</option>
+                    <option value="llm_brain">LLM Brain Pattern</option>
+                    <option value="rag_knowledge">RAG Knowledge Graph</option>
+                    <option value="tech_matrix">Tech Matrix</option>
+                    <option value="ai_circuit">AI Circuit Board</option>
+                    <option value="deep_learning">Deep Learning Layers</option>
+                    <option value="data_science">Data Science Visualization</option>
+                    <option value="quantum_ai">Quantum AI</option>
+                    <option value="nlp_text">NLP Text Processing</option>
+                </select>
+            </div>
+
+            <button id="downloadBtn" class="download-btn">Download Image</button>
+        </div>
+
+        <div class="preview-container">
+            <canvas id="canvas" width="1584" height="396"></canvas>
+        </div>
+
+        <div class="info">
+            <h3>LinkedIn Background Specifications:</h3>
+            <ul>
+                <li>Dimensions: 1584 x 396 pixels</li>
+                <li>File format: PNG or JPG</li>
+                <li>Maximum file size: 8MB</li>
+                <li>Recommended: Professional and clean design</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="linkedin-background.js"></script>
+</body>
+</html>
